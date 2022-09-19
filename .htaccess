@@ -1,0 +1,4 @@
+### PROTECT FILES - użytkownik nie zobaczy tych plików w przeglądarce###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Deny from all
+</FilesMatch>

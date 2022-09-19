@@ -1,0 +1,37 @@
+.parallax
+{
+    min-height: 600px;
+	/*max-width: 1920px;*/
+	background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+#one
+{
+	background-image: url("../img/2.jpg");
+}
+#two
+{
+	background-image: url("../img/3.jpg");
+}
+
+#three
+{
+	background-image: url("../img/4.jpg");
+}
+
+.article_parallax
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+	opacity: 0.8;
+	padding: 25px;
+	font-size: 20px;
+}
+
+.flex{
+	flex-direction: row;
+	justify-content: space-evenly;
+}
